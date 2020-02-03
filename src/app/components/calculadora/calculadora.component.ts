@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CalculadoraComponent {
 
+  calcular(numero1:number, operacion:string, numero2:number){
+
+  }
 }

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input {
+    text-align: right;
+    height: 40px;
+}
+
+button {
+    background: rgba(25, 59, 255, 0.4);
+    border-radius: 10px 0 5px 0;
+}
+
+button:hover {
+    background: rgba(25, 59, 255, 0.8);
+    font-weight: 700;
+    color: white;
+}
+
+.calculadora {
+    position: relative;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+.izq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100% !important;
+    margin: 1% 0;
+    padding: 0;
+}
+
+.borrar {
+    margin: 1% 0;
+    width: 50% !important;
+    padding: .5vw;
+}
+
+.numero {
+    width: 33.3%;
+    padding: 2%;
+}
+
+.der {
+    display: flex;
+    justify-content: right !important;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.operaciones {
+    width: 50%;
+}
+
+.igual {
+    margin: 1% 0;
+    width: 100%;
+}
